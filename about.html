@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TURANDOT</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<link rel="shortcut icon" href="favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="flex wrap jc-sb ai-c">
+					<div class="col">
+						<div class="flex wrap jc-start ai-c">
+							<div class="col">
+								<a href="" title="" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="col col-1">
+								<button class="burger mobile"></button>
+								<ul class="menu desktop">
+									<li><a href="" title="" class="active">Доставка</a></li>
+									<li><a href="" title="">Ресторан</a></li>
+									<li><a href="" title="">Бронь столиков</a></li>
+									<li><a href="" title="">Кейтеринг</a></li>
+									<li><a href="" title="">Акции</a></li>
+									<li><a href="" title="">Рестораны</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="flex wrap jc-end ai-c">
+							<div class="col">
+								<div class="dropdown">
+									<button class="dropdown-toggle">Алматы</button>
+									<ul class="dropdown-menu">
+										<li><a href="" title="" class="active">Алматы</a></li>
+										<li><a href="" title="">Нур-Султан</a></li>
+										<li><a href="" title="">Караганда</a></li>
+										<li><a href="" title="">Шымкент</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col">
+								<div class="info">
+									<a href="" title="" class="tel">+7 (777) 777-77-77</a>
+								</div>
+							</div>
+							<div class="col">
+								<!--a href="#signin" title="" class="singin open">Войти</a-->
+								<div class="account dropdown">
+									<div class="dropdown-toggle">
+										<img src="img/avatar.png" alt="" />
+										<div class="profile">
+											<div class="name">Роман</div>
+											<div class="coins">234</div>
+										</div>
+									</div>
+									<ul class="dropdown-menu">
+										<li><a href="" title="">Мой профиль</a></li>
+										<li><a href="" title="">Выйти</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="header-mobile">
+			<div class="container">
+				<div class="flex jc-sb ai-c">
+					<button class="burger"></button>
+					<a href="" title="" class="logo">
+						<img src="img/logo.svg" alt="" />
+					</a>
+					<a href="" title="" class="cart"></a>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-menu">
+			<div class="container">
+				<div class="flex column">
+					<div class="flex jc-sb">
+						<button class="close"></button>
+						<div class="col flex">
+							<div class="dropdown">
+								<button class="dropdown-toggle">Алматы</button>
+								<ul class="dropdown-menu">
+									<li><a href="" title="" class="active">Алматы</a></li>
+									<li><a href="" title="">Нур-Султан</a></li>
+									<li><a href="" title="">Караганда</a></li>
+									<li><a href="" title="">Шымкент</a></li>
+								</ul>
+							</div>
+							<div class="info">
+								<a href="" title="" class="tel">+7 (777) 777-77-77</a>
+							</div>
+						</div>
+					</div>
+					<hr/>
+					<ul class="menu">
+						<li><a href="" title="" class="active">Доставка</a></li>
+						<li><a href="" title="">Ресторан</a></li>
+						<li><a href="#reservation" title="" class="open">Бронь столиков</a></li>
+						<li><a href="" title="">Кейтеринг</a></li>
+						<li><a href="" title="">Акции</a></li>
+						<li><a href="" title="">Рестораны</a></li>
+					</ul>
+					<a href="#signin" title="" class="singin open">Войти</a>
+				</div>
+			</div>
+		</div>
+		<main>
+			<section id="about">
+				<div class="container">
+					<div class="flex column jc-c ai-c">
+						<img src="img/turandot-xl.svg" alt="" class="turandot-xl" />
+						<div class="since">
+							<div class="flex ai-c">
+								<div class="merriweather">1998</div>
+								<h4>Готовим из лучших продуктов более 20 лет</h4>
+							</div>
+						</div>
+						<div id="get">
+							<div class="flex">
+								<div class="item">
+									<div class="icon icon-1"></div>
+									<div class="caption">
+										<h5>Доставка домой</h5>
+										<small>доставим за 30 минут</small>
+									</div>
+									<div class="arrow"></div>
+									<a href="" title="" class="full"></a>
+								</div>
+								<div class="item">
+									<div class="icon icon-2"></div>
+									<div class="caption">
+										<h5>Бронь столиков</h5>
+										<small>Выберем лучшее место</small>
+									</div>
+									<div class="arrow"></div>
+									<a href="" title="" class="full"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="restaurant">
+				<div class="container">
+					<div class="title">
+						<div class="flex wrap ai-c">
+							<div class="col">
+								<img src="img/restaurant-title.png" alt="" />
+							</div>
+							<div class="col">
+								<h1>Рестаран основан в 1998 году</h1>
+								<h5>В театре им Мухтара Ауэзова была постановка пьесы Турандот, откуда и берет свое название название рестарана</h5>
+							</div>
+						</div>
+					</div>
+					<div class="image">
+						<img src="img/about-image-1.png" alt="" />
+					</div>
+					<div class="content">
+						<div class="flex">
+							<div class="col">
+								<div class="description">
+									<h3>КРАТКО О ПЬЕСЕ</h3>
+									<h4>Бегущий из собственных земель, завоеванных неприятелем, принц Калаф влюбляется в китайскую принцессу, лишь увидев её портрет.</h4>
+								</div>
+							</div>
+							<div class="col parallax">
+								<img src="img/about-image-2.png" alt="" />
+							</div>
+							<div class="col parallax top">
+								<img src="img/about-image-3.png" alt="" />
+								<h2>23 года мы дарим людям эмоции в 4 крупных городах казахстана</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="menu">
+				<div class="container">
+					<div class="title">
+						<h2>Меню ресторана</h2>
+					</div>
+					<div class="content">
+						<div class="scroll-y">
+							<div class="item">
+								<div class="flex wrap ai-c">
+									<div class="image">
+										<img src="img/menu.png" alt="" />
+									</div>
+									<div class="description">
+										<h2>Салаты</h2>
+										<h5>В нашем заведении вы найдёте Салаты по душе, сможете сделать заказ и доставить</h5>
+										<a href="#category" title="" class="btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="flex wrap ai-c">
+									<div class="image">
+										<img src="img/menu.png" alt="" />
+									</div>
+									<div class="description">
+										<h2>Горячие блюда</h2>
+										<h5>В нашем заведении вы найдёте Салаты по душе, сможете сделать заказ и доставить</h5>
+										<a href="#category" title="" class="btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="flex wrap ai-c">
+									<div class="image">
+										<img src="img/menu.png" alt="" />
+									</div>
+									<div class="description">
+										<h2>Холодные закуски</h2>
+										<h5>В нашем заведении вы найдёте Салаты по душе, сможете сделать заказ и доставить</h5>
+										<a href="#category" title="" class="btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="flex wrap ai-c">
+									<div class="image">
+										<img src="img/menu.png" alt="" />
+									</div>
+									<div class="description">
+										<h2>Основные блюда</h2>
+										<h5>В нашем заведении вы найдёте Салаты по душе, сможете сделать заказ и доставить</h5>
+										<a href="#category" title="" class="btn">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="progress-bar"></div>
+			</section>
+			<section id="advantages">
+				<div class="container">
+					<div class="flex ai-c">
+						<div class="col col-1">
+							<div class="image">
+								<img src="img/meal.png" alt="" />
+							</div>
+						</div>
+						<div class="col col-2">
+							<div class="content">
+								<div class="flex column jc-sa">
+									<div class="row adv-1">
+										<h3><span>9</span> ресторанов</h3>
+										<h5>Для современного мира синтетическое тестирование</h5>
+									</div>
+									<div class="row adv-2">
+										<h3><span>1000+</span> довольных клиентов</h3>
+										<h5>Для современного мира синтетическое тестирование</h5>
+									</div>
+									<div class="row adv-3">
+										<h3><span>500</span> человек вместимость</h3>
+										<h5>Для современного мира синтетическое тестирование</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img src="img/elem-5.png" alt="" class="elem elem-5" />
+				<img src="img/elem-6.png" alt="" class="elem elem-6" />
+				<img src="img/elem-7.png" alt="" class="elem elem-7" />
+			</section>
+			<section id="gallery">
+				<div class="container">
+					<div class="title">
+						<h2>Уютный интерьер</h2>
+					</div>
+				</div>
+				<div class="scroll-x">
+					<div class="item">
+						<img src="img/gallery-1.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-2.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-3.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-4.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-5.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-1.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-2.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-3.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-4.png" alt="" />
+					</div>
+					<div class="item">
+						<img src="img/gallery-5.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<section id="delivery">
+				<div class="container">
+					<div class="delivery">
+						<div class="flex wrap ai-c">
+							<div class="image">
+								<img src="img/bag4.png" alt="" />
+							</div>
+							<div class="content">
+								<div class="title">
+									<h2>Оформим доставку?</h2>
+								</div>
+								<div class="description">
+									<h4>Для современного мира синтетическое тестирование говорит о возможностях позиций</h4>
+									<div class="flex wrap ai-c">
+										<a href="" title="" class="btn">Заказать доставку</a>
+										<a href="" title="" class="geo">Зона доставки</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reservation">
+				<div class="container">
+					<div class="flex wrap ai-c">
+						<div class="content">
+							<div class="title">
+								<h2>Давайте выберем самые удобные места для вас и ваших друзей</h2>
+							</div>
+							<div class="description">
+								<h4>Для современного мира синтетическое тестирование говорит о возможностях позиций</h4>
+								<a href="" title="" class="btn">Забронировать стол</a>
+							</div>
+						</div>
+						<div class="image">
+							<img src="img/reserved.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="catering">
+				<div class="container">
+					<div class="flex wrap ai-c">
+						<div class="image">
+							<img src="img/catering2.png" alt="" />
+						</div>
+						<div class="content">
+							<div class="title">
+								<h2>Хотите провести праздник с любимыми блюдами?</h2>
+							</div>
+							<div class="description">
+								<h4>Учитывая ключевые сценарии поведения, синтетическое тестирование в значительной степени обусловливает важность системы обучения кадров, соответствующей </h4>
+								<a href="" title="" class="btn">Заказать кейтеринг</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="bonus">
+				<div class="container">
+					<div class="bonus">
+						<div class="flex wrap jc-sb">
+							<div class="caption">
+								<div class="flex column jc-sb">
+									<div class="row">
+										<span class="prize">Награда</span>
+										<h2 class="h1">Скачай мобильное приложение и получи 1000 бонусов</h2>
+										<h5>Начисляем бонусные баллы после каждой оплаты</h5>
+									</div>
+									<div class="row">
+										<div class="flex">
+											<a href="" title="" class="app ios">
+												<h6>Доступно в</h6>
+												<h4>App Store</h4>
+											</a>
+											<a href="" title="" class="app android">
+												<h6>Доступно в</h6>
+												<h4>Play Market</h4>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="image">
+								<img src="img/bonus-image.png" alt="" />
+							</div>
+						</div>
+						<img src="img/elem-1.png" alt="" class="elem elem-1" />
+						<img src="img/elem-2.png" alt="" class="elem elem-2" />
+					</div>
+				</div>
+			</section>
+			<section id="feedback">
+				<div class="container">
+					<div class="feedback">
+						<div class="flex wrap jc-sb ai-c">
+							<h2>Поделитесь своими впечатлениями о нашем сервисе</h2>
+							<a href="" title="" class="btn">Оставить отзыв</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="flex wrap jc-sb">
+						<div class="col">
+							<img src="img/turandot.svg" alt="" />
+							<a href="" title="" class="tel">+7 727 250 03 99</a>
+							<h5>Телефон горячей линии</h5>
+							<ul class="social">
+								<li><a href="" title="" class="in"></a></li>
+								<li><a href="" title="" class="yt"></a></li>
+								<li><a href="" title="" class="fb"></a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h3>Кухня</h3>
+							<ul class="menu">
+								<li><a href="" title="">Фирменное</a></li>
+								<li><a href="" title="">Новинки</a></li>
+								<li><a href="" title="">Акции</a></li>
+								<li><a href="" title="">Популярное</a></li>
+								<li><a href="" title="">Новинки</a></li>
+								<li><a href="" title="">Кейтеринг</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h3>Ресторан</h3>
+							<ul class="menu">
+								<li><a href="" title="">Повора</a></li>
+								<li><a href="" title="">О Ресторане</a></li>
+								<li><a href="" title="">Доставка</a></li>
+								<li><a href="" title="">Контакты</a></li>
+								<li><a href="" title="">Бронирование</a></li>
+								<li><a href="" title="">Жалобы/предложения</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr/>
+				<div class="row">
+					<div class="flex wrap jc-sb">
+						<a href="" title="" class="politics">Политика конфиденциальности</a>
+						<div class="designed"><span>Сайт разработан компанией</span> <a href="https://yoko.space" title="" target="_blanc">yoko.space</a></div>
+					</div>
+				</div>
+			</div>
+			<img src="img/elem-3.png" alt="" class="elem elem-3" />
+			<img src="img/elem-4.png" alt="" class="elem elem-4" />
+		</footer>
+		<div id="category" class="view">
+			<div class="container">
+				<div class="flex wrap jc-sb ai-start">
+					<div class="title">
+						<h2>Салаты</h2>
+						<img src="img/menu.png" alt="" />
+						<h4>В нашем заведении вы найдёте Салаты по душе, сможете сделать заказ и доставить</h4>
+					</div>
+					<div class="content">
+						<div class="box">
+							<div class="flex jc-sb ai-c">
+								<h3>Рекомендуем попробовать</h3>
+								<button class="close"></button>
+							</div>
+							<div class="products">
+								<div class="row flex wrap">
+									<div class="col">
+										<div class="product">
+											<div class="image">	
+												<a href="#product" title="" class="open">
+													<img src="img/product.png" alt="" />
+												</a>
+												<div class="properties">
+													<span class="property-1"></span>
+													<span class="property-2"></span>
+													<span class="property-3"></span>
+												</div>
+												<span class="info">SALE</span>
+											</div>
+											<div class="flex jc-sb ai-c">
+												<a href="#product" title="" class="product-name open">Телячьи отбивные</a>
+												<button class="wishlist"></button>
+											</div>
+											<div class="description">Банальные, но неопровержимые выводы, а также реплицированные с.</div>
+											<div class="flex jc-sb ai-c">
+												<div class="price">
+													<span class="old-price">9 990 ₸</span>
+													<span class="new-price">9 990 ₸</span>
+												</div>
+												<div class="buttons">
+													<button class="buy">Добавить</button>
+													<div class="quantity">
+														<button class="minus">-</button>
+														<input type="text" name="quantity" value="1" readonly />
+														<button class="plus">+</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="product">
+											<div class="image">	
+												<a href="#product" title="" class="open">
+													<img src="img/product.png" alt="" />
+												</a>
+												<div class="properties">
+													<span class="property-1"></span>
+													<span class="property-2"></span>
+													<span class="property-3"></span>
+												</div>
+												<span class="info">SALE</span>
+											</div>
+											<div class="flex jc-sb ai-c">
+												<a href="#product" title="" class="product-name open">Телячьи отбивные</a>
+												<button class="wishlist"></button>
+											</div>
+											<div class="description">Банальные, но неопровержимые выводы, а также реплицированные с.</div>
+											<div class="flex jc-sb ai-c">
+												<div class="price">
+													<span class="old-price">9 990 ₸</span>
+													<span class="new-price">9 990 ₸</span>
+												</div>
+												<div class="buttons">
+													<button class="buy">Добавить</button>
+													<div class="quantity">
+														<button class="minus">-</button>
+														<input type="text" name="quantity" value="1" readonly />
+														<button class="plus">+</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="product">
+											<div class="image">	
+												<a href="#product" title="" class="open">
+													<img src="img/product.png" alt="" />
+												</a>
+												<div class="properties">
+													<span class="property-1"></span>
+													<span class="property-2"></span>
+													<span class="property-3"></span>
+												</div>
+												<span class="info">SALE</span>
+											</div>
+											<div class="flex jc-sb ai-c">
+												<a href="#product" title="" class="product-name open">Телячьи отбивные</a>
+												<button class="wishlist"></button>
+											</div>
+											<div class="description">Банальные, но неопровержимые выводы, а также реплицированные с.</div>
+											<div class="flex jc-sb ai-c">
+												<div class="price">
+													<span class="old-price">9 990 ₸</span>
+													<span class="new-price">9 990 ₸</span>
+												</div>
+												<div class="buttons">
+													<button class="buy">Добавить</button>
+													<div class="quantity">
+														<button class="minus">-</button>
+														<input type="text" name="quantity" value="1" readonly />
+														<button class="plus">+</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="product">
+											<div class="image">	
+												<a href="#product" title="" class="open">
+													<img src="img/product.png" alt="" />
+												</a>
+												<div class="properties">
+													<span class="property-1"></span>
+													<span class="property-2"></span>
+													<span class="property-3"></span>
+												</div>
+												<span class="info">SALE</span>
+											</div>
+											<div class="flex jc-sb ai-c">
+												<a href="#product" title="" class="product-name open">Телячьи отбивные</a>
+												<button class="wishlist"></button>
+											</div>
+											<div class="description">Банальные, но неопровержимые выводы, а также реплицированные с.</div>
+											<div class="flex jc-sb ai-c">
+												<div class="price">
+													<span class="old-price">9 990 ₸</span>
+													<span class="new-price">9 990 ₸</span>
+												</div>
+												<div class="buttons">
+													<button class="buy">Добавить</button>
+													<div class="quantity">
+														<button class="minus">-</button>
+														<input type="text" name="quantity" value="1" readonly />
+														<button class="plus">+</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-center">
+								<a href="" title="" class="button">Смотреть еще 14 салатов</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="product" class="popup">
+			<div class="overlay"></div>
+			<div class="container">
+				<button class="close"></button>
+				<div class="modal product">
+					<div class="image">
+						<img src="img/product.png" alt="" />
+						<div class="properties">
+							<span class="property-1"></span>
+							<span class="property-2"></span>
+							<span class="property-3"></span>
+						</div>
+						<div class="tooltip">
+							<a href="#" title=""></a>
+							<div class="tooltip-box">
+								<div class="title">Пищевая ценность на 100 г.</div>
+								<ul>
+									<li>Энерг. ценность<span>253,4 ккал</span></li>
+									<li>Белки<span>9,4 г</span></li>
+									<li>Жиры<span>9,4 г</span></li>
+									<li>Углеводы<span>9,4 г</span></li>
+									<li>Вес<span>9,4 г</span></li>
+								</ul>
+								<div class="description">Может содержать аллергены: аспартам, горчица, диоксид серы и сульфиты, кунжут, моллюски, орехи, ракообразные, рыба, сельдерей, соя, яйца</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex ai-c">
+						<div class="product-name">Телячьи отбивные</div>
+						&nbsp;
+						<span class="mass">• 234 г.</span>
+					</div>
+					<div class="description">Банальные, но неопровержимые выводы, а также реплицированные с.</div>
+					<div class="price">
+						<span class="new-price">9 990 ₸</span>
+					</div>
+					<div class="type flex wrap">
+						<label>
+							<input type="radio" name="type" value="Не острое" checked="checked" />
+							<span>Не острое</span>
+						</label>
+						<label>
+							<input type="radio" name="type" value="Среднее" />
+							<span>Среднее</span>
+						</label>
+						<label>
+							<input type="radio" name="type" value="Острое" />
+							<span>Острое</span>
+						</label>
+					</div>
+					<div class="buttons">
+						<button class="button">Добавить в корзину</button>
+						<div class="quantity">
+							<button class="minus">-</button>
+							<input type="text" name="quantity" value="1" readonly />
+							<button class="plus">+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/main.min.js"></script>
+	</body>
+</html>
